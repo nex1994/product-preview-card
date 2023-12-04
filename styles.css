@@ -1,3 +1,39 @@
-boddy {
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: hsl(30, 38%,92%);
+    font-size: 14px;
+    display: grid;
+}
+
+main {
+    place-self: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    flex-wrap: wrap;
+
+}
+
+.image {
+ width: fit-content;
+}
+
+.product-description {
+    background-color: white;
+    width: fit-content;
     
 }
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+
+
+
